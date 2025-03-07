@@ -1,0 +1,60 @@
+# Visual Studio-specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output directories
+bin/
+obj/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+*.dnu.json
+!nuget.config
+!packages.config
+
+# Debug and release folders
+[Dd]ebug/
+[Rr]elease/
+
+# Logs and crash reports
+*.log
+*.tlog
+
+# Resharper and Rider settings
+*.DotSettings.user
+.idea/
+
+# Temporary files
+*.tmp
+*.cache
+*.bak
+*.swp
+
+# JetBrains Rider settings
+.idea/
+
+# Local database files
+*.mdf
+*.ldf
+
+# Ignore compiled Python files (if applicable)
+__pycache__/
+
+# Ignore node_modules (if using JS in the project)
+node_modules/
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore Windows thumbnail cache files
+Thumbs.db
+
+# Ignore Linux/macOS files
+*.DS_Store
+*.vscode/
